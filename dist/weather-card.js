@@ -3,30 +3,29 @@ const html = LitElement.prototype.html;
 const css = LitElement.prototype.css;
 
 const weatherIconsDay = {
-  clear: "day",
-  "clear-night": "night",
+  clear: "clear",
+  "clear-night": "clear-night",
   cloudy: "cloudy",
-  fog: "cloudy",
-  hail: "rainy-7",
-  lightning: "thunder",
-  "lightning-rainy": "thunder",
-  partlycloudy: "cloudy-day-3",
-  pouring: "rainy-6",
-  rainy: "rainy-5",
-  snowy: "snowy-6",
-  "snowy-rainy": "rainy-7",
+  fog: "fog",
+  hail: "hail",
+  lightning: "lightning",
+  "lightning-rainy": "lightning-rainy",
+  partlycloudy: "partly-cloudy",
+  pouring: "pouring",
+  rainy: "rainy",
+  snowy: "snowy",
+  "snowy-rainy": "snowy-rainy",
   sunny: "day",
-  windy: "cloudy",
-  "windy-variant": "cloudy-day-3",
-  exceptional: "!!",
+  windy: "windy",
+  "windy-variant": "windy",
+  exceptional: "exceptional",
 };
 
 const weatherIconsNight = {
   ...weatherIconsDay,
-  clear: "night",
-  sunny: "night",
-  partlycloudy: "cloudy-night-3",
-  "windy-variant": "cloudy-night-3",
+  clear: "clear-night",
+  sunny: "clear-night",
+  partlycloudy: "partly-cloudy-night"
 };
 
 const windDirections = [
