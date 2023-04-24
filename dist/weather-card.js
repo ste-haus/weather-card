@@ -52,10 +52,10 @@ const windDirections = [
 window.customCards = window.customCards || [];
 window.customCards.push({
   type: "weather-card",
-  name: "Weather Card",
+  name: "STE Weather Card",
   description: "A custom weather card with animated icons.",
   preview: true,
-  documentationURL: "https://github.com/bramkragten/weather-card",
+  documentationURL: "https://github.com/ste-haus/weather-card",
 });
 
 const fireEvent = (node, type, detail, options) => {
