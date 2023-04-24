@@ -15,7 +15,7 @@ const weatherIconsDay = {
   rainy: "rainy",
   snowy: "snowy",
   "snowy-rainy": "snowy-rainy",
-  sunny: "day",
+  sunny: "clear",
   windy: "windy",
   "windy-variant": "windy",
   exceptional: "exceptional",
